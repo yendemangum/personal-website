@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "nocturne-serif";
+    src: url("https://use.typekit.net/af/120dbd/00000000000000007735c5f5/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/120dbd/00000000000000007735c5f5/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/120dbd/00000000000000007735c5f5/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.p {
+    font-family: "nocturne-serif";
+    max-width: 80vw;
+    margin: auto;
+}
+
+.ul {
+    max-width: 80vw;
+    margin: auto;
+    padding: 1rem;
+}
+
+.li {
+    list-style-type: disc;
+}
+
+.h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 80%;
+}

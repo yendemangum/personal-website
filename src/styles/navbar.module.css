@@ -1,0 +1,27 @@
+.icon {
+    width: 6rem;
+    filter: invert(100%);
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Nocturne;
+}
+
+@font-face {
+    font-family: Nocturne;
+    src: url(https://use.typekit.net/urm6pij.css);
+}
