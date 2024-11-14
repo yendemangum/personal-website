@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import navbar from "../styles/navbar.module.css";
+import logo from "../../public/D2FA6g.svg"
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
         <nav className={navbar.nav}>
           <Link to="/">
             <img
-              src="../public/D2FA6g.svg"
+              src={logo}
               alt="Yende Mangum logo"
               className={navbar.icon}
             />
