@@ -8,7 +8,7 @@ function Navbar() {
         <nav className={navbar.nav}>
           <Link to="/">
             <img
-              src="./src/D2FA6g.svg"
+              src="/src/D2FA6g.svg"
               alt="Yende Mangum logo"
               className={navbar.icon}
             />
